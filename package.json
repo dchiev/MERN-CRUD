@@ -1,0 +1,25 @@
+{
+  "name": "mern-crud",
+  "version": "1.0.0",
+  "description": "CRUD app with MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchiev/MERN-CRUD.git"
+  },
+  "author": "Dan Chiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchiev/MERN-CRUD/issues"
+  },
+  "homepage": "https://github.com/dchiev/MERN-CRUD#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
