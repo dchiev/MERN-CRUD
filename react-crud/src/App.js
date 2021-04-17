@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import { Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./logo.svg";
-import "./App.css";
-import { render } from "react-dom";
 
+import "./App.css";
+
+import AddTutorial from "./components/add-tutorial.component";
+import Tutorial from "./components/tutorial.component";
+import TutorialsList from "./components/tutorialList.component";
 class App extends Component {
   render() {
     return (
