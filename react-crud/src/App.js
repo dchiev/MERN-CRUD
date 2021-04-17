@@ -6,7 +6,7 @@ import "./App.css";
 
 import AddTutorial from "./components/add-tutorial.component";
 import Tutorial from "./components/tutorial.component";
-import TutorialsList from "./components/tutorialsList.component";
+import TutorialsList from "./components/tutorials-list.component";
 class App extends Component {
   render() {
     return (
